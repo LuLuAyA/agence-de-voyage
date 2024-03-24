@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <title>Lud'air compagnie</title>
+
+        <!-- ajout de la police d'écriture -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!-- balise pour le haut de page -->
+        <header>
+            <!-- titre de la page -->
+            <h1 class="titre">🛫Lud'air🛫</h1>  
+
+                <!-- slogan -->
+            <h3 class="slogan">«La tête dans les nuages!»</h3>
+
+          <div class="search-form">
+              <!-- formulaire de recherche -->
+              <form method="post" class="provenance">
+                <div class="form-group">
+                    <label for="provenance">Ville de départ:</label>
+                <input type="text" name="provenance" id="provenance" placeholder="Paris,Londres,...">
+
+                <label for="arrivee">Ville de d'arrivée:</label>
+                <input type="text" name="arrivee" id="arrivee" placeholder="Paris,Londres,...">
+                </div>
+
+                <div class="form-group">
+                    <label for="depart">Date de départ:</label>
+                        <input type="date" name="depart" id="depart" value="23/03/2024">
+
+                        <label for="retour">Date de retour:</label>
+                    <input type="date" name="retour" id="retour" value="23/04/2024">
+                </div>
+
+                <div class="form-group">
+                    <label for="adulte" id="adulte">Nombre d'adultes:</label>
+                        <select>
+                            <option selected="selcted">0 Adulte</option>
+                            <option>1 Adulte</option>
+                            <option>2 Adulte</option>
+                            <option>3 Adulte</option>
+                            <option>4 Adulte</option>
+                            <option>5 Adulte</option>
+                        </select> 
+    
+                    <label for="enfant" id="enfant">Nombre d'enfants:</label>
+                    <select>
+                        <option selected="selcted">0 Enfants</option>
+                        <option>1 Enfant</option>
+                        <option>2 Enfants</option>
+                        <option>3 Enfants</option>
+                        <option>4 Enfants</option>
+                        <option>5 Enfants</option>
+                    </select> 
+                    
+                    <label for="type">Catégorie:</label>
+                    <select name="type" id="type">
+                        <option selected="selected">Classe économique</option>
+                        <option>Classe affaire</option>
+                        <option>1ere Classe</option>
+                    </select>
+                </div>
+                <div class="button-submit">
+                    <input class="button-submit" type="submit" value="Lancer la recherche" name="recherche" id="recherche">
+                </div>
+            </form>
+          </div>
+        </header>    
+         <!-- section des déstination -->
+        
+            <section id="destination">
+                <h3>Nous proposons différentes déstinations pour découvrir le monde!</h3>
+                <!-- creation du groupe 1 -->
+                <div class="destination-groupe">
+
+                    <!-- destination1 -->
+                    <div class="destination-item barcelone">
+                        <div class="overlay">
+                            <span class="prix"> Dès 80€</span>
+                            <span class="nom">Barcelone</span>
+                        </div>
+                    </div>
+                        <!-- destination2 -->
+                    <div class="destination-item dubai">
+                        <div class="overlay">
+                            <span class="prix">Dès 300€</span>
+                            <span class="nom">Dubai</span>                        
+                        </div>
+                    </div>
+                        <!-- destination3 -->
+                    <div class="destination-item philippines">
+                        <div class="overlay">
+                            <span class="prix">Dès 1200€</span>
+                            <span class="nom">Manille</span>                              
+                        </div>             
+                    </div>
+                <!-- création du groupe 2 -->
+                    <!-- destination 4 -->
+                    <div class="destination-item londres">
+                        <div class="overlay">
+                            <span class="prix">Dès 65€</span>
+                            <span class="nom">Londres</span>
+                        </div>
+                    </div>
+                    <!-- destination 5 -->
+                    <div class="destination-item paris">
+                        <div class="overlay">
+                            <span class="prix">Dès 55€</span>
+                            <span class="nom">Paris</span>
+                        </div>  
+                    </div> 
+                    <!-- destination 6  -->
+                    <div class="destination-item tunis">
+                        <div class="overlay">
+                            <span class="prix">Dès 90€</span>
+                            <span class="nom">Tunis</span>
+                        </div>
+                    </div>
+                
+
+                
+
+            </section>
+
+    </body>
+</html> 
